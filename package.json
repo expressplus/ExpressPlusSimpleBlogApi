@@ -1,0 +1,19 @@
+{
+  "name": "expressjsplus-blog-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js "
+  },
+  "author": "ulvimemmedov",
+  "license": "ISC",
+  "dependencies": {
+    "@ulvimemmeedov/expressjsplus": "^0.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
